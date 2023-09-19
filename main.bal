@@ -5,8 +5,8 @@ import ballerina/mime;
 
 configurable string serviceUrl = "https://apitest.sinclair.edu/colleagueapi";
 configurable string token = "";
-configurable string username = "api.choreo";
-configurable string password = "Tucker23";
+configurable string username = "";
+configurable string password = "";
 
 service /collegeapi on new http:Listener(9091) {
 
